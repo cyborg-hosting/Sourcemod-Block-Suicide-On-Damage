@@ -1,0 +1,1 @@
+# Sourcemod-Block-Suicide-On-Damage
