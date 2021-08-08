@@ -1,0 +1,8 @@
+"Phrases"
+{
+	"BlockAlert"
+	{
+		"en"		"Abusing suicide is prohibited."
+		"ko"		"자살 악용은 금지되어있습니다."
+	}
+}
