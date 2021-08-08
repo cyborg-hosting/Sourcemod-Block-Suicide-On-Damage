@@ -28,6 +28,7 @@ bool inRespawnroom[MAXPLAYERS + 1] = { false };
 
 public void OnPluginStart()
 {
+    LoadTranslations("blocksod.phrases.txt");
     suicideTimerSec = CreateConVar("sm_blocksuicide_timer", "5", "Time (in seconds) which blocker activates for.", 0, true, 1.0);
     HookConVarChange(suicideTimerSec, suicideTimerSecChange);
     
