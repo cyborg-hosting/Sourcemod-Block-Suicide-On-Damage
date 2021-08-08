@@ -154,17 +154,17 @@ public void eventSpawn(Event event, const char[] name, bool dontBroadcast)
 
 public void OnRespawnroomStartTouch(int entity, int other)
 {
-    if(isValidClient(entity))
+    if(isValidClient(other))
     {
-        inRespawnroom[entity] = true;
+        inRespawnroom[other] = true;
     }
 }
 
 public void OnRespawnroomEndTouch(int entity, int other)
 {
-    if(isValidClient(entity))
+    if(isValidClient(other))
     {
-        inRespawnroom[entity] = false;
+        inRespawnroom[other] = false;
     }
 }
 
